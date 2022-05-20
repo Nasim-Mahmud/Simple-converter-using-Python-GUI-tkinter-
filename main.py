@@ -15,8 +15,8 @@ label.grid(row=0, column=2)
 
 # Label 02
 label = Label()
-label.config(text="Miles", font=("Arial", 12, "bold"), padx=15)
-label.grid(row=0, column=2)
+label.config(text="is equal to", font=("Arial", 12, "bold"))
+label.grid(row=1, column=2)
 
 
 window.mainloop()
