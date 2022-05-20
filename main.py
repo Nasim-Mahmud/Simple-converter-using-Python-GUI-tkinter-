@@ -6,6 +6,7 @@ window.config(pady=20, padx=50)
 
 # Entry
 input = Entry()
+input.config(width=8, font=("Arial", 12, "bold"))
 input.grid(row=0, column=1)
 
 # Label 01
