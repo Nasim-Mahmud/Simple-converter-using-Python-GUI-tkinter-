@@ -31,7 +31,7 @@ label.grid(row=1, column=2)
 # result
 def converter():
     n = input.get()
-    res =
+    res = int(n) * CONST
     result.config(text=res)
 
 
