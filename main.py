@@ -16,7 +16,7 @@ label.grid(row=0, column=2)
 # Label 02
 label = Label()
 label.config(text="is equal to", font=("Arial", 12, "bold"))
-label.grid(row=1, column=2)
+label.grid(row=1, column=0)
 
 
 window.mainloop()
