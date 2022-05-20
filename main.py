@@ -2,7 +2,8 @@ from tkinter import *
 
 CONST = 1.60934
 
-window = Tk("Miles to Kilometer converter")
+window = Tk()
+
 window.minsize(width=300, height=50)
 window.config(pady=20, padx=50)
 
