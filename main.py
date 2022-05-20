@@ -1,5 +1,7 @@
 from tkinter import *
 
+CONST = 1.60934
+
 window = Tk("Miles to Kilometer converter")
 window.minsize(width=300, height=50)
 window.config(pady=20, padx=50)
@@ -19,5 +21,26 @@ label = Label()
 label.config(text="is equal to", font=("Arial", 12, "bold"))
 label.grid(row=1, column=0)
 
+# Label 03
+label = Label()
+label.config(text="kilometer", font=("Arial", 12, "bold"))
+label.grid(row=1, column=2)
+
+
+
+# result
+def converter():
+    n = input.get()
+    res =
+    result.config(text=res)
+
+
+result = Label()
+result.config(font=("Arial", 12, "bold"))
+result.grid(row=1, column=1)
+
+# Button
+button = Button(text="Convert", command=converter)
+button.grid(row=2, column=1)
 
 window.mainloop()
