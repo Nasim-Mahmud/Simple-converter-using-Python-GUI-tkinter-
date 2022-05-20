@@ -5,7 +5,8 @@ window.minsize(width=300, height=50)
 
 # Entry
 input = Entry()
-input.config(END, "A text")
+input.grid(row=0, column=1)
+
 
 
 
