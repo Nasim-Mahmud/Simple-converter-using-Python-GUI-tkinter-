@@ -28,7 +28,6 @@ label.config(text="kilometer", font=("Arial", 12, "bold"))
 label.grid(row=1, column=2)
 
 
-
 # result
 def converter():
     n = input.get()
@@ -41,7 +40,7 @@ result.config(font=("Arial", 12, "bold"))
 result.grid(row=1, column=1)
 
 # Button
-button = Button(text="Calculate" ,command=converter, font=("Arial", 12, "bold"))
+button = Button(text="Calculate", command=converter, font=("Arial", 12, "bold"))
 button.grid(row=2, column=1)
 
 window.mainloop()
