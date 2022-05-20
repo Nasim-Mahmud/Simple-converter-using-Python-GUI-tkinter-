@@ -14,7 +14,6 @@ label.config(text="Miles", font=("Arial", 12, "bold"), padx=15)
 label.grid(row=0, column=2)
 
 # Label 02
-# label
 label = Label()
 label.config(text="Miles", font=("Arial", 12, "bold"), padx=15)
 label.grid(row=0, column=2)
