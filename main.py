@@ -32,7 +32,7 @@ label.grid(row=1, column=2)
 def converter():
     n = input.get()
     res = int(n) * CONST
-    result.config(text=res)
+    result.config(text="{:.2f}".format(res))
 
 
 result = Label()
