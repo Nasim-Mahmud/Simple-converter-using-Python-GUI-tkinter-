@@ -29,10 +29,7 @@ label.grid(row=1, column=2)
 
 
 # result
-def converter():
-    n = input.get()
-    res = int(n) * CONST
-    result.config(text="{:.2f}".format(res))
+
 
 
 result = Label()
