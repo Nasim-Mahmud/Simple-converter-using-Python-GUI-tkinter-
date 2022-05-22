@@ -39,6 +39,4 @@ result = Label()
 result.config(font=("Arial", 12, "bold"))
 result.grid(row=1, column=1)
 
-
-
 window.mainloop()
