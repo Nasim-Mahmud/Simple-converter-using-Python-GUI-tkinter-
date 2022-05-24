@@ -7,15 +7,7 @@ window.title("Mile to Kilometer converter")
 window.minsize(width=300, height=50)
 window.config(pady=20, padx=50)
 
-
 # Lets add new unit convertions also
-
-
-
-
-
-
-
 
 
 # Entry
@@ -53,16 +45,5 @@ result.grid(row=1, column=1)
 # Button
 button = Button(text="Calculate", command=converter, font=("Arial", 12, "bold"))
 button.grid(row=2, column=1)
-
-
-
-
-
-
-
-
-
-
-
 
 window.mainloop()
