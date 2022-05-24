@@ -7,6 +7,13 @@ window.title("Mile to Kilometer converter")
 window.minsize(width=300, height=50)
 window.config(pady=20, padx=50)
 
+
+
+
+
+
+
+
 # Entry
 input = Entry()
 input.config(width=8, font=("Arial", 12, "bold"))
