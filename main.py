@@ -13,6 +13,8 @@ ask = Label()
 ask.config(text="Which conversion do you need to check?", font=("Arial", 12, "bold"), padx=15)
 ask.pack()
 
+# Options
+
 # Entry
 input = Entry()
 input.config(width=8, font=("Arial", 12, "bold"))
