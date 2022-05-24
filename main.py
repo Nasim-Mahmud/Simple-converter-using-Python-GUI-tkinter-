@@ -8,7 +8,10 @@ window.minsize(width=300, height=50)
 window.config(pady=20, padx=50)
 
 # Let's add new unit conversions also
-
+# Asking label
+label = Label()
+label.config(text="Miles", font=("Arial", 12, "bold"), padx=15)
+label.grid(row=0, column=2)
 
 # Entry
 input = Entry()
