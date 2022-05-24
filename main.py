@@ -11,17 +11,17 @@ window.config(pady=20, padx=50)
 # Asking label
 ask = Label()
 ask.config(text="Which conversion do you need to check?", font=("Arial", 12, "bold"), padx=15)
-ask.grid(row=0, column=2)
+ask.pack()
 
 # Entry
 input = Entry()
 input.config(width=8, font=("Arial", 12, "bold"))
-input.grid(row=0, column=1)
+input.pack()
 
 # Label 01
 label = Label()
 label.config(text="Miles", font=("Arial", 12, "bold"), padx=15)
-label.grid(row=0, column=2)
+label.pack()
 
 # Label 02
 label = Label()
