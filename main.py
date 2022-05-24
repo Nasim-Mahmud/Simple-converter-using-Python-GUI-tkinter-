@@ -14,7 +14,10 @@ ask.config(text="Which conversion do you need to check?", font=("Arial", 12, "bo
 ask.pack()
 
 # Options
-options = Listbox(height=4)
+list = Listbox(height=4)
+options = ["M to Km", "Km to M", "Cm to Inch", "Inch to Cm"]
+for item in options:
+    list.insert(options.index(item), item)
 
 
 # Entry
