@@ -25,6 +25,7 @@ for item in options:
     list_box.insert(options.index(item), item)
 
 list_box.bind("<<ListboxSelect>>", list_select)
+list_box.pack()
 
 # Entry
 input = Entry()
