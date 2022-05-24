@@ -16,7 +16,7 @@ ask.pack()
 
 # Options
 def list_select(event):
-    print(list_box.curselection())
+    print(list_box.get(list_box.curselection()))
 
 
 list_box = Listbox(height=4)
