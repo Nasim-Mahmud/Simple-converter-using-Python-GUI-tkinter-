@@ -14,7 +14,8 @@ ask.config(text="Which conversion do you need to check?", font=("Arial", 12, "bo
 ask.pack()
 
 # Options
-options =
+options = Listbox(height=4)
+
 
 # Entry
 input = Entry()
