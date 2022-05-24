@@ -13,16 +13,18 @@ ask = Label()
 ask.config(text="Which conversion do you need to check?", font=("Arial", 12, "bold"), padx=15)
 ask.pack()
 
+
 # Options
 def list_select(event):
-    print(list.curselection())
+    print(list_box.curselection())
 
-list = Listbox(height=4)
+
+list_box = Listbox(height=4)
 options = ["M to Km", "Km to M", "Cm to Inch", "Inch to Cm"]
 for item in options:
-    list.insert(options.index(item), item)
+    list_box.insert(options.index(item), item)
 
-list.bind("<<ListboxSelect>>", list_select)
+list_box.bind("<<ListboxSelect>>", list_select)
 
 # Entry
 input = Entry()
