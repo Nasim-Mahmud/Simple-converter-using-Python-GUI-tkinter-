@@ -26,12 +26,12 @@ label.pack()
 # Label 02
 label = Label()
 label.config(text="is equal to", font=("Arial", 12, "bold"))
-label.grid(row=1, column=0)
+label.pack()
 
 # Label 03
 label = Label()
 label.config(text="kilometer", font=("Arial", 12, "bold"))
-label.grid(row=1, column=2)
+label.pack()
 
 
 # result
@@ -43,10 +43,10 @@ def converter():
 
 result = Label()
 result.config(font=("Arial", 12, "bold"))
-result.grid(row=1, column=1)
+result.pack()
 
 # Button
 button = Button(text="Calculate", command=converter, font=("Arial", 12, "bold"))
-button.grid(row=2, column=1)
+button.pack()
 
 window.mainloop()
