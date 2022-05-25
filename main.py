@@ -48,11 +48,7 @@ label.config(text="kilometer", font=("Arial", 12, "bold"))
 label.pack()
 
 
-# result
-def converter():
-    n = input.get()
-    res = int(n) * CONST
-    result.config(text="{:.2f}".format(res))
+
 
 
 result = Label()
