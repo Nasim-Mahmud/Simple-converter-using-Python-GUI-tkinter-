@@ -63,7 +63,5 @@ result.pack()
 button = Button(text="Calculate", command=converter, font=("Arial", 12, "bold"))
 button.pack()
 
-if list_box.get(list_box.curselection()):
-    print("Yessssss")
 
 window.mainloop()
