@@ -16,7 +16,7 @@ ask.pack()
 
 # Options
 def list_select(event):
-    print(list_box.get(list_box.curselection()))
+    return list_box.get(list_box.curselection())
 
 
 list_box = Listbox(height=4)
@@ -62,5 +62,7 @@ result.pack()
 # Button
 button = Button(text="Calculate", command=converter, font=("Arial", 12, "bold"))
 button.pack()
+
+if
 
 window.mainloop()
