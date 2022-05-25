@@ -63,5 +63,4 @@ result.pack()
 button = Button(text="Calculate", command=converter, font=("Arial", 12, "bold"))
 button.pack()
 
-
 window.mainloop()
