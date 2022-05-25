@@ -18,6 +18,12 @@ ask.pack()
 def list_select(event):
     print(list_box.get(list_box.curselection()))
 
+    # result
+    def converter():
+        n = input.get()
+        res = int(n) * CONST
+        result.config(text="{:.2f}".format(res))
+
 
 list_box = Listbox(height=4)
 options = ["M to Km", "Km to M", "Cm to Inch", "Inch to Cm"]
